@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="List of Your Accounts"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:onClick="listAccounts"/>
+
+    <Button
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="Add Account"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="addAccount"/>
+
+    <Button
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:text="Add Transaction"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="addTransaction"/>
+
+    <Button
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:text="Recent Transactions"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="recentTransactions"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Search Transactions"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="searchTransactions"/>
+
+</LinearLayout>
